@@ -1506,3 +1506,9 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+_TrubbishDexEntry::
+    text "Wainting more"
+    next "garbage, they"
+    next "follow people who"
+	next "litter. They always"
+	next "belch poison gas"
