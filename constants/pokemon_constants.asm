@@ -37,8 +37,8 @@
 	const BLASTOISE          ; $1C
 	const PINSIR             ; $1D
 	const TANGELA            ; $1E
+    const TRUBBISH           ; $1F
 	const_skip               ; $1F
-	const_skip               ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
 	const FEAROW             ; $23
@@ -201,7 +201,7 @@
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
 ; player starter
-DEF STARTER_PIKACHU EQU PIKACHU
+DEF STARTER_PIKACHU EQU TRUBBISH
 
 ; rival starters
 DEF RIVAL_STARTER_JOLTEON  EQU 1
