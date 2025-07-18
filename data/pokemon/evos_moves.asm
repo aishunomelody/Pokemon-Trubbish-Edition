@@ -41,7 +41,7 @@ EvosMovesPointerTable:
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
 	dw TrubbishEvosMoves
-	dw MissingNo1FEvosMoves
+	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -554,18 +554,6 @@ TangelaEvosMoves:
 	db 48, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 14, DOUBLESLAP
-	db 18, SLUDGE
-	db 25, TAKE_DOWN
-	db 36, TOXIC
-	db 40, AMNESIA
-	db 47, EXPLOSION
-	db 0
-
 TrubbishEvosMoves:
 ; Evolutions
     db EVOLVE_LEVEL, 36, MEW
@@ -578,6 +566,12 @@ TrubbishEvosMoves:
  	db 40, AMNESIA
  	db 47, EXPLOSION
  	db 0
+
+MissingNo20EvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 0
 
 GrowlitheEvosMoves:
 ; Evolutions
