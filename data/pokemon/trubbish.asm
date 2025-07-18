@@ -19,5 +19,4 @@
 	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE
 	; end
 
-	db BANK(GrimerPicFront)
-	assert BANK(GrimerPicFront) == BANK(GrimerPicBack)
+	db 0 ; padding
